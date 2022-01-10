@@ -1,0 +1,212 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: brown;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+	background-color: gray;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #000;
+	font-size: 1.5em;
+	text-transform: capitalize;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a {
+	color: brown;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: indigo;
+}
+
+#nav-list a span {
+	font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid blue;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+
+.container {
+	box-shadow: 0 0 50px white;
+	border: 2px solid gray;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+	height: 500px;
+	width: 100%;
+	margin-bottom: 100px;
+	position: relative;
+	border: 2px solid gray;
+	overflow: hidden;
+}
+
+#chicken-tile:hover, #beef-tile:hover, #sushi-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#chicken-tile p {
+	background:  white;
+	background-position: center;
+}
+
+#beef-tile {
+	background:  white;
+	background-position: center;
+}
+
+#sushi-tile {
+	background: white;
+	background-position: center;
+}
+
+#chicken-tile span, #beef-tile span, #sushi-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: right;
+	font-size: 1.6em;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+
+}
+
+.category-tile {
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	width: 200px;
+	height: 250px;
+	margin: 0 auto 15px;
+}
+
+.category-tile p {
+	margin-top: 2.5em;
+	text-align: center;
+
+}
+
+.category-tile p {
+	margin-top: 2.5em;
+	text-align: center;
+	
+}
+
+
+.category-tile span {
+	position: absolute;
+	right: 0;
+	width: 100%;
+	text-align: right;
+	font-size: 1em;
+	background-color: burlywood;
+	color: grey;
+	opacity: .8;
+}
+
+.category-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-title + div {
+	margin-bottom: 50px;
+}
+
+
+@media (max-width: 767px) {
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+
+	@media (min-width: 768px) and (max-width: 991px) {
+		.container {
+			background: white;
+			height: 432px;
+		}
+	}
+
+	@media (min-width: 1200px) {
+		.container {
+			background: white;
+			height: 675px;
+		}
+
+	}
+
+	@media (max-width: 479px) {
+		.navbar-brand h1 {
+			padding-top: 5px;
+			font-size: 6vw;
+		}
+	}
+
+	#collapsable-nav a {
+		font-size: 1.2em;
+	}
+
+	#collapsable-nav a span {
+		font-size: 1em;
+		margin-right: 5px;
+	}
+
+
+
+	.navbar-brand h1 {
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+
+	#collapsable-nav a {
+		font-size: 1.2em;
+	}
+
+	#collapsable-nav a span {
+		font-size: 1em;
+		margin-right: 5px;
+
+	}
+
+
+}
+
+.row {
+	margin-bottom: 15px;
+}
+
+.row > div {
+	border: 2px solid white;
+	background-color: white;
+}
