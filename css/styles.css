@@ -102,16 +102,16 @@ p {
 }
 
 #p3 {
-	background-color: burlywood;
-	position: absolute;
-	top: 0;
-  right: 0;
-  font-weight: bold;
-  height: 35px;
-  width: 120px;
-  padding: 10px;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+    background-color: burlywood;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    height: 35px;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
